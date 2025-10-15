@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+
+ 
+}
+.header{
+   
+    margin: 0 auto;
+    background-image: url(Rectangle\ 2\ \(6\).png);
+ 
+
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: #FFFFFF;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+ 
+
+}
+.nav ul li{
+    font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+
+}
+.li:hover{
+   
+    color: #ffffff;
+    box-shadow: 0px 0px 40px 5px #f5f5f5cc;
+    transition: all 0.5s;
+}
+.btn{
+
+    width: 602px;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    color: rgb(0, 0, 0);
+    border-radius: 30px; 
+    margin: auto;
+    margin-top: 30px ;
+     box-shadow: 3px 3px 3px    rgb(255, 255, 255)   ;
+    transition: .5s;
+
+
+}
+.btn h1{
+    margin: auto;
+   
+}
+
+
+.Element{
+    
+}
+.red{
+    display: flex;
+    justify-content: space-between;
+}
+.redElement{
+    width: 237px;
+    height: 209px;
+    background-color: #F70101;
+  
+    margin-top: 50px;
+    position: relative;
+    bottom: -104px  ;
+    left: 119px ;
+    
+
+}
+.redElement h1{
+    color: #FFFFFF;
+    
+    position: relative;
+    left: 65px;
+    top: 80px;
+}
+.redElement2{
+width: 411px;
+height: 209px;
+ background-color:#F70101;
+border-radius: 100px;
+margin-top: 50px;   
+position: relative;
+bottom: -104px  ;
+
+}
+.redElement2 h1{
+    position: relative;
+    left: 140px;
+    top: 80px;
+    color: #FFFFFF;
+    margin: auto;
+   
+}
+.redElement3{
+    width: 237px;
+    height: 209px;
+    background-color: #F70101;
+    border: 2px solid black;
+    margin-top: 50px;
+    position: relative;
+    bottom: -104px  ;
+    right: 132px;
+}
+.redElement3 h1{
+    color: #FFFFFF;
+     position: relative;
+    left: 65px;
+    top: 80px;
+}
+.h1{
+    margin: auto;
+}
+.green{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.greenElement{
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    color: #FF0606;
+    box-shadow: 4px  white;
+
+
+}
+.greenElement h1{
+    position: relative;
+    left: 65px;
+    top: 140px;
+}
+.section{
+    width: 100%;
+    background-color: black;
+}
+.boxes{
+    width: 100%;
+}
+.box{
+   position: relative;
+   top: 100px;
+   left: 100px  ;
+    width: 368px;
+    height: 332px;
+    background-color: #7B2525;
+    border: 2px solid black;
+    
+
+
+}
+.box h1{
+   color: white;
+   position: relative;
+   left: 150px;
+}
+.box p{
+    color: white;
+    position: relative;
+    top: 100px;
+}
+.box2{
+    position: relative;
+    left: 550px;
+    bottom: 233px   ;
+    width: 368px;
+    height: 332px;
+    background-color: #7B2525;
+    border: 2px solid black;
+}
+.box2 h1{
+    color: white;
+    position: relative;
+    left: 130px;
+}
+.box3{
+    position: relative;
+    bottom: 565px;
+    left: 1000px;
+     width: 368px;
+    height: 332px;
+    background-color: #7B2525;
+    border: 2px solid black;
+
+}
+.box3 h1{
+    color: white;
+    position: relative;
+    left: 130px;
+}
+.box2 img{
+    position: relative;
+    left: 15px;
+    top: 100px;
+}
+.box3 img{
+    position: relative;
+    left: 25px  ;
+    top: 100px;
+}
